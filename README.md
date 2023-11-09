@@ -1,31 +1,32 @@
 # Sepet-asamasindaki-kullanicilara-urun-onerme
-Birliktelik Kuralı Temelli Tavsiye Sistemi Uygulaması : Apriori Algoritması ile Ürün Önerme
+## Birliktelik Kuralı Temelli Tavsiye Sistemi Uygulaması : Apriori Algoritması ile Ürün Önerme
 
-Veri setine https://archive.ics.uci.edu/dataset/502/online+retail+ii bu adresten ulaşabilirsiniz.
-
-İş Problemi
+## İş Problemi
 
 Sepet aşamasındaki kullanıcılara ürün önerme
 
-Veri Seti Hikayesi
+## Veri Seti Hikayesi
 
-“Online Retail II” isimli veri seti İngiltere merkezli online bir satış mağazasının 01/12/2009–09/12/2011 tarihleri arasındaki satışları içermektedir. Bu şirketin ürün kataloğunda hediyelik eşyalar yer almaktadır.  
+__“Online Retail II”__ isimli veri seti İngiltere merkezli online bir satış mağazasının 01/12/2009–09/12/2011 tarihleri arasındaki satışları içermektedir. Bu şirketin ürün kataloğunda hediyelik eşyalar yer almaktadır.  
 
-Veri setine https://archive.ics.uci.edu/dataset/502/online+retail+ii bu adresten ulaşabilirsiniz.
+Veri setine [buradan](https://archive.ics.uci.edu/dataset/502/online+retail+ii) ulaşabilirsiniz.
 
-Değişkenler
-InvoiceNo — Fatura Numarası : Eğer bu kod “C” ile başlıyorsa işlemin iptal edildiğini ifade eder.
+## Değişkenler
 
-StockCode — Ürün Kodu : Herbir ürün için eşssiz numara
+__InvoiceNo__ — Fatura Numarası : Eğer bu kod “C” ile başlıyorsa işlemin iptal edildiğini ifade eder.
 
-Description — Ürün İsmi
+__StockCode__ — Ürün Kodu : Herbir ürün için eşssiz numara
 
-Quantity — Ürün Adedi : Faturalardaki ürünlerden kaçar tane satıldığını ifade eder.
+__Description__ — Ürün İsmi
 
-InvoiceDate — Fatura Tarihi
+__Quantity__ — Ürün Adedi : Faturalardaki ürünlerden kaçar tane satıldığını ifade eder.
 
-UnitPrice — Fatura fiyatı (Sterlin)
+__InvoiceDate__ — Fatura Tarihi
 
-CustomerID — Eşsiz müşteri numarası
+__UnitPrice__ — Fatura fiyatı (Sterlin)
 
-Country — Ülke ismi
+__CustomerID__ — Eşsiz müşteri numarası
+
+__Country__ — Ülke ismi
+
+Konuyla ilgili medium yazıma [buradan](https://medium.com/@yilmaazbengisu/birliktelik-kural%C4%B1-temelli-tavsiye-sistemi-uygulamas%C4%B1-apriori-algoritmas%C4%B1-ile-%C3%BCr%C3%BCn-%C3%B6nerme-5d475f2e5ac7) ulaşabilirsiniz.
